@@ -12,6 +12,7 @@
 		B5CD3E9E2237873F0010A4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD3E9C2237873F0010A4B6 /* Main.storyboard */; };
 		B5CD3EA0223787400010A4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD3E9F223787400010A4B6 /* Assets.xcassets */; };
 		B5CD3EA3223787400010A4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD3EA1223787400010A4B6 /* LaunchScreen.storyboard */; };
+		B5CD3EAB223788480010A4B6 /* SelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD3EAA223788480010A4B6 /* SelectionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B5CD3E9F223787400010A4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CD3EA2223787400010A4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CD3EA4223787400010A4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CD3EAA223788480010A4B6 /* SelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B5CD3E982237873F0010A4B6 /* AppDelegate.swift */,
 				B5CD3E9A2237873F0010A4B6 /* ViewController.swift */,
+				B5CD3EAA223788480010A4B6 /* SelectionScreen.swift */,
 				B5CD3E9C2237873F0010A4B6 /* Main.storyboard */,
 				B5CD3E9F223787400010A4B6 /* Assets.xcassets */,
 				B5CD3EA1223787400010A4B6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				B5CD3E9B2237873F0010A4B6 /* ViewController.swift in Sources */,
 				B5CD3E992237873F0010A4B6 /* AppDelegate.swift in Sources */,
+				B5CD3EAB223788480010A4B6 /* SelectionScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JianyuanChen.Delegate-Protocal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianyuanChen.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JianyuanChen.Delegate-Protocal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianyuanChen.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
